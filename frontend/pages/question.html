@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assets/css/form.css">
+    <title>Questionnaire Form</title>
+</head>
+<body>
+    <div class="container ">
+        <header class="header">
+            <h1 id="title">
+                Student Questionnaire 
+            </h1>
+        
+        </header>
+        <form action="" id="survey-form">
+            
+            <div class="form-group">
+                <p id="quest">What kind of careers fields have you thought about for your future? </p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >Select your choice</option>
+                    <option value="student">STEM (Science, Technology, Engineering, Mathematics)</option>
+                    <option value="teacher">Healthcare and Medicine</option>
+                    <option value="job">Creative Arts and Design</option>
+                    <option value="student">Education and Academia</option>
+                    <option value="teacher">Law and Government</option>
+                    <option value="job">Finance and Accounting</option>
+                    <option value="student">Social Services and NGOs</option>
+                    <option value="teacher">Trades and Skilled Labor</option>
+                    <option value="job">Hospitality and Tourism</option>
+                    <option value="student">Sports and Fitness</option>
+                    <option value="teacher">Technology and Innovation</option>
+                    <option value="job">Agriculture and Environment</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p id="quest">What skills do you think you are good at? </p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="front-end-dev"> Communication Skills
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev"> Leadership and Management
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="app-dev">  Problem-Solving and Critical Thinking
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="soft-engineering"> Technical and IT Skills
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="front-end-dev"> Design and Creativity
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev"> Sales and Marketing
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="app-dev">  Interpersonal and Social Skills
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="soft-engineering"> Organization and Time Management
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="app-dev">  Financial and Analytical Skills
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="soft-engineering"> Science and Research Skills
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="app-dev">  Emotional Intelligence(Self-awareness, Adaptability, Stress Management, Conflict Management)
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="soft-engineering"> Teaching and Mentoring
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="soft-engineering"> Still Exploring
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="other"> Other
+                </label>
+            </div>
+            <div class="form-group">
+                <p id="quest">Which subjects do you enjoy studying the most? </p>
+                <textarea name="feedback"  cols="20" rows="2"  id="feedback" class="textarea" placeholder="Science, Mathematics, Economics, Psychology.."></textarea>
+            </div>
+            <div class="form-group">
+                <p id="quest">What hobbies or activities outside of school do you enjoy?  </p>
+                <textarea name="feedback"  cols="20" rows="3"  id="feedback" class="textarea" placeholder="Reading, Sports, Technology.."></textarea>
+            </div>
+            <div class="form-group">
+                <p id="quest">Who is someone you look up to in terms of their career or job? </p>
+                <textarea name="feedback"  cols="20" rows="3"  id="feedback" class="textarea" placeholder="Kiran Bedi- First female IAS officer"></textarea>
+            </div>
+            <div class="form-group">
+                <p id="quest">Have you volunteered in your community? If yes, what did you learn from it?</p>
+                <textarea name="feedback"  cols="20" rows="3"  id="feedback" class="textarea" placeholder="Learning about community needs and social issues"></textarea>
+            </div>
+            <div class="form-group">
+                <p id="quest">What personal qualities or strengths do you believe will help you in your future career?</p>
+                <textarea name="feedback"  cols="20" rows="3"  id="feedback" class="textarea" placeholder="Strong sense of accountability and dedication to tasks"></textarea>
+            </div>
+            <div class="form-group">
+                <p id="quest">What role do you see technology playing in your future career?</p>
+                <textarea name="feedback"  cols="2o" rows="3"  id="feedback" class="textarea" placeholder="I believe that using technology for communication, organization, and data management will enhance my effectiveness"></textarea>
+            </div>
+            <div class="form-group">
+                <p id="quest">Have you taken on leadership roles in school or other activities?</p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >Select </option>
+                    <option value="student">Yes, frequently</option>
+                    <option value="teacher">Yes, occasionally</option>
+                    <option value="job">No, but I'm interested</option>
+                    <option value="other">No, I prefer working independently</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Do you enjoy working with others and sharing ideas?  </p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >Select </option>
+                    <option value="student">Yes, I enjoy it and actively contribute</option>
+                    <option value="teacher">Yes, but I prefer listening to others' ideas
+                    </option>
+                    <option value="job">Sometimes, depending on the group or situation</option>
+                    <option value="other">No, not interested</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Would you be interested in a job that allows you to travel? </p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >Select </option>
+                    <option value="student">Yes, I love traveling and would enjoy it frequently</option>
+                    <option value="teacher">Yes, but only occasionally</option>
+                    <option value="job">Maybe, it depends on the job</option>
+                    <option value="other">No, I prefer staying in one place</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Do you like to come up with new ideas or solve problems in creative ways? </p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >Select </option>
+                    <option value="student">Yes, I love being creative and solving problems</option>
+                    <option value="teacher">Yes, but only when needed</option>
+                    <option value="job">Sometimes, depending on the situation</option>
+                    <option value="other">No, I prefer following established methods</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">How important is it to you to understand and respect different cultures in your future job?</p>
+                <label for="">
+                    <input type="radio" name="source" value="freinds"
+                    class="inputRadio"
+                    checked> Very Important - Understanding and respecting different cultures is essential for collaboration and success.
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="tv-ads"
+                    class="inputRadio"
+                    >Somewhat Important - It's important, but skills and qualifications are the primary focus.
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="social-media"
+                    class="inputRadio"
+                    > Neutral - I don't have strong feelings; it depends on the job context.
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="newspaper"
+                    class="inputRadio"
+                    > Not Very Important - I don't think understanding cultures is a priority for my career.
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="other"
+                    class="inputRadio"
+                    >Not Important at All - I prefer to focus solely on the technical aspects of my work.
+                </label>
+            </div>
+            <div class="form-group">
+                <p id="quest">What influences your career choices the most? </p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >Select current role</option>
+                    <option value="student">Family and friends</option>
+                    <option value="teacher">Personal interests</option>
+                    <option value="job">Job market trends</option>
+                    <option value="other">Financial considerations</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p id="quest">Give us your feedback</p>
+                <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

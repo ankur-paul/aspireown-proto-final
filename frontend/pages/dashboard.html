@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="/assets/css/dashboard.css">
+</head>
+<body>
+    <div class="scroll">
+        <h2>Student Dashboard</h2>
+        <button id="profileBtn" class="active">Profile</button>
+        <button id="careersBtn">Careers</button>
+        <button id="resourcesBtn">Resources</button>
+        <button id="feedbackBtn">Feedback</button>
+        <div class="nav-links">
+            <a href="#" id="updateProfileLink">Update Profile</a>
+            <a href="#" id="viewSuggestionsLink">View Suggestions</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div id="profileSection" class="section active">
+            <h2>Profile Overview</h2>
+            <p>Name: John Doe</p>
+            <p>Status: Active</p>
+            <p>Year: Junior</p>
+        </div>
+        <div id="careersSection" class="section">
+            <h2>Career Suggestions</h2>
+            <ul>
+                <li>Software Engineer</li>
+                <li>Data Analyst</li>
+                <li>UX Designer</li>
+            </ul>
+        </div>
+        <div id="resourcesSection" class="section">
+            <h2>Resource Recommendations</h2>
+            <ul>
+                <li>Introduction to Programming (Course)</li>
+                <li>Design Thinking (Book)</li>
+                <li>Data Science Fundamentals (Workshop)</li>
+            </ul>
+        </div>
+        <div id="feedbackSection" class="section">
+            <h2>Feedback</h2>
+            <form id="feedbackForm">
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Your feedback" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+        <div id="updateProfileSection" class="section">
+            <h2>Update Profile</h2>
+            <form id="updateProfileForm">
+                <input type="text" placeholder="Name" required>
+                <input type="text" placeholder="Status" required>
+                <input type="text" placeholder="Year" required>
+                <button type="submit">Update Profile</button>
+            </form>
+        </div>
+        <div id="viewSuggestionsSection" class="section">
+            <h2>View All Suggestions</h2>
+            <h3>Career Suggestions</h3>
+            <ul>
+                <li>Software Engineer</li>
+                <li>Data Analyst</li>
+                <li>UX Designer</li>
+                <li>Product Manager</li>
+                <li>Digital Marketer</li>
+            </ul>
+            <h3>Course Suggestions</h3>
+            <ul>
+                <li>Advanced Programming Techniques</li>
+                <li>Machine Learning Fundamentals</li>
+                <li>User Experience Design</li>
+                <li>Agile Project Management</li>
+                <li>Digital Marketing Strategies</li>
+            </ul>
+        </div>
+    </div>
+<script src="/assets/js/dashboard.js"></script>
+</body>
+</html>

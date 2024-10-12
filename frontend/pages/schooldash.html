@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive School Dashboard</title>
+    <link rel="stylesheet" href="/assets/css/schooldash.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive School Dashboard</h1>
+        
+        <div class="dashboard">
+            <h2>Student Management</h2>
+            <table id="Table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Grade</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="dashboard">
+            <h2>Input Section</h2>
+            <form id="Form">
+                <input type="text" id="studentId" placeholder="Student ID" required>
+                <input type="text" id="studentName" placeholder="Student Name" required>
+                <input type="text" id="studentGrade" placeholder="Grade" required>
+                <input type="text" id="studentMarks" placeholder="Marks">
+                <input type="text" id="studentActivity" placeholder="Activity">
+                <input type="text" id="studentAward" placeholder="Award">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <div class="dashboard">
+            <h2>Career Insights</h2>
+            <select id="Select">
+                <option value="">Choose a student</option>
+            </select>
+            <div id="careerInsights">
+            </div>
+        </div>
+        
+        <div class="dashboard">
+            <h2>Feedback Overview</h2>
+            <table id="feedback">
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Date</th>
+                        <th>Feedback</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="Profile" class="dashboard">
+            <h2>Student Profile</h2>
+        </div>
+    </div>
+
+    <script src="first.js"></script>
+</body>
+</html>
